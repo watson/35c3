@@ -9,7 +9,7 @@ var path = require('path')
 var download = require('download-to-file')
 var xml2js = require('xml2js')
 var nearest = require('nearest-date')
-var diffy = require('diffy')({fullscreen: true})
+var diffy = require('diffy')({ fullscreen: true })
 var input = require('diffy/input')()
 var trim = require('diffy/trim')
 var Grid = require('virtual-grid')
@@ -86,8 +86,8 @@ function load (cb) {
 function initUI (schedule) {
   // setup virtual grid
   grid = new Grid([
-    [{height: 2, wrap: false, padding: [0, 1, 0, 0]}, {height: 2, wrap: false, padding: [0, 0, 0, 1]}],
-    [{padding: [0, 1, 0, 0], wrap: false}, {padding: [0, 0, 0, 1], wrap: false}]
+    [{ height: 2, wrap: false, padding: [0, 1, 0, 0] }, { height: 2, wrap: false, padding: [0, 0, 0, 1] }],
+    [{ padding: [0, 1, 0, 0], wrap: false }, { padding: [0, 0, 0, 1], wrap: false }]
   ])
 
   grid.on('update', function () {
@@ -167,7 +167,7 @@ function initMenu (schedule) {
   var items = []
 
   schedule.day.forEach(function (day, index) {
-    items.push({text: 'Day ' + (index + 1), separator: true})
+    items.push({ text: 'Day ' + (index + 1), separator: true })
 
     var events = []
 
