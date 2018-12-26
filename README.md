@@ -2,6 +2,7 @@
 
 Chaos Communication Congress 2018 Schedule on the Command Line
 
+[![npm](https://img.shields.io/npm/v/35c3.svg)](https://www.npmjs.com/package/35c3)
 [![Build status](https://travis-ci.org/watson/35c3.svg?branch=master)](https://travis-ci.org/watson/35c3)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -40,4 +41,4 @@ Usage: 35c3 [options]
 
 ## License
 
-MIT
+[MIT](LICENSE)
