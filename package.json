@@ -31,7 +31,7 @@
     "nearest-date": "^1.0.1",
     "scrollable-string": "^1.4.0",
     "virtual-grid": "^2.0.0",
-    "wrap-ansi": "^2.1.0",
+    "wrap-ansi": "^4.0.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
