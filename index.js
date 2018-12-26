@@ -230,6 +230,7 @@ function renderTalk (talk) {
   if (talk.subtitle[0]) {
     body = trim(`
       ${body}
+
       ${chalk.black.bgYellow('** Subtitle **')}
       ${talk.subtitle[0]}
     `)
@@ -237,6 +238,7 @@ function renderTalk (talk) {
 
   body = trim(`
     ${body}
+
     ${chalk.black.bgYellow('** Abstract **')}
     ${talk.abstract[0]}
   `)
@@ -244,6 +246,7 @@ function renderTalk (talk) {
   if (talk.description[0]) {
     body = trim(`
       ${body}
+
       ${chalk.black.bgYellow('** Description **')}
       ${talk.description[0]}
     `)
