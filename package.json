@@ -1,15 +1,15 @@
 {
-  "name": "34c3",
-  "version": "2.1.2",
-  "description": "Chaos Communication Congress 2017 Schedule on the Command Line",
+  "name": "35c3",
+  "version": "0.0.0",
+  "description": "Chaos Communication Congress 2018 Schedule on the Command Line",
   "bin": "index.js",
   "scripts": {
     "test": "standard",
-    "update": "curl https://events.ccc.de/congress/2017/Fahrplan/schedule.xml > schedule.tmp && mv schedule.tmp schedule.xml"
+    "update": "curl https://fahrplan.events.ccc.de/congress/2018/Fahrplan/schedule.xml > schedule.tmp && mv schedule.tmp schedule.xml"
   },
   "keywords": [
     "ccc",
-    "34c3",
+    "35c3",
     "program",
     "schedule",
     "event",
@@ -39,14 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watson/34c3.git"
+    "url": "git+https://github.com/watson/35c3.git"
   },
   "bugs": {
-    "url": "https://github.com/watson/34c3/issues"
+    "url": "https://github.com/watson/35c3/issues"
   },
-  "homepage": "https://github.com/watson/34c3#readme",
-  "coordinates": [
-    51.3978265,
-    12.3975969
-  ]
+  "homepage": "https://github.com/watson/35c3#readme"
 }

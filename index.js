@@ -20,8 +20,8 @@ var pad = require('fixed-width-string')
 var chalk = require('chalk')
 var argv = require('minimist')(process.argv.slice(2))
 
-var URL = 'https://events.ccc.de/congress/2017/Fahrplan/schedule.xml'
-var CACHE = path.join(os.homedir(), '.34c3', 'schedule.xml')
+var URL = 'https://fahrplan.events.ccc.de/congress/2018/Fahrplan/schedule.xml'
+var CACHE = path.join(os.homedir(), '.35c3', 'schedule.xml')
 var activeCol = 0
 var grid, talk
 
@@ -31,7 +31,7 @@ else if (argv.update || argv.u) update()
 else run()
 
 function help () {
-  console.log('Usage: 34c3 [options]')
+  console.log('Usage: 35c3 [options]')
   console.log()
   console.log('Options:')
   console.log('  --help, -h     Show this help')
@@ -76,7 +76,7 @@ function load (cb) {
         })
       } catch (e) {
         console.error('Could not parse conference schedule - malformed XML!')
-        console.error('Run "34c3 --update" to re-download the schedule')
+        console.error('Run "35c3 --update" to re-download the schedule')
         process.exit(1)
       }
     })
@@ -210,7 +210,7 @@ function renderTopBar (text, active) {
 }
 
 function updateTopBar () {
-  grid.update(0, 0, renderTopBar(` 34c3 schedule - ${chalk.bold('enter:')} select, ${chalk.bold('tab:')} switch column`, activeCol === 0))
+  grid.update(0, 0, renderTopBar(` 35c3 schedule - ${chalk.bold('enter:')} select, ${chalk.bold('tab:')} switch column`, activeCol === 0))
   grid.update(0, 1, renderTopBar(talk ? `Scroll: ${Math.round(talk.pct() * 100)}%` : '', activeCol === 1))
 }
 
