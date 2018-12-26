@@ -218,10 +218,15 @@ function renderTalk (talk) {
   var cell = grid.cellAt(1, 1)
   var width = cell.width - cell.padding[1] - cell.padding[3]
 
+  var speakers = talk.persons[0].person.map(function (person) {
+    return person._
+  }).join(', ')
+
   var body = trim(`
     Room:     ${talk.room[0]}
     Start:    ${talk.start[0]}
     Duration: ${talk.duration[0]}
+    Speakers: ${speakers}
 
     ${chalk.black.bgYellow('** Title **')}
     ${talk.title[0]}
