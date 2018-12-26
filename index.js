@@ -226,6 +226,7 @@ function renderTalk (talk) {
     Room:     ${talk.room[0]}
     Start:    ${talk.start[0]}
     Duration: ${talk.duration[0]}
+    Track:    ${talk.track}
     Speakers: ${speakers}
 
     ${chalk.black.bgYellow('** Title **')}
