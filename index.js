@@ -3,27 +3,27 @@
 
 process.title = require('./package').name
 
-var os = require('os')
-var fs = require('fs')
-var path = require('path')
-var download = require('download-to-file')
-var xml2js = require('xml2js')
-var nearest = require('nearest-date')
-var diffy = require('diffy')({ fullscreen: true })
-var input = require('diffy/input')()
-var trim = require('diffy/trim')
-var Grid = require('virtual-grid')
-var scrollable = require('scrollable-string')
-var Menu = require('menu-string')
-var wrap = require('wrap-ansi')
-var pad = require('fixed-width-string')
-var chalk = require('chalk')
-var argv = require('minimist')(process.argv.slice(2))
+const os = require('os')
+const fs = require('fs')
+const path = require('path')
+const download = require('download-to-file')
+const xml2js = require('xml2js')
+const nearest = require('nearest-date')
+const diffy = require('diffy')({ fullscreen: true })
+const input = require('diffy/input')()
+const trim = require('diffy/trim')
+const Grid = require('virtual-grid')
+const scrollable = require('scrollable-string')
+const Menu = require('menu-string')
+const wrap = require('wrap-ansi')
+const pad = require('fixed-width-string')
+const chalk = require('chalk')
+const argv = require('minimist')(process.argv.slice(2))
 
-var URL = 'https://fahrplan.events.ccc.de/congress/2018/Fahrplan/schedule.xml'
-var CACHE = path.join(os.homedir(), '.35c3', 'schedule.xml')
-var activeCol = 0
-var grid, talk
+const URL = 'https://fahrplan.events.ccc.de/congress/2018/Fahrplan/schedule.xml'
+const CACHE = path.join(os.homedir(), '.35c3', 'schedule.xml')
+let activeCol = 0
+let grid, talk
 
 if (argv.help || argv.h) help()
 else if (argv.version || argv.v) version()
@@ -61,7 +61,7 @@ function run () {
 
 function load (cb) {
   fs.stat(CACHE, function (err) {
-    var filepath = err ? path.join(__dirname, 'schedule.xml') : CACHE
+    const filepath = err ? path.join(__dirname, 'schedule.xml') : CACHE
     console.log('Schedule cache:', filepath)
     fs.readFile(filepath, function (err, xml) {
       if (err) return cb(err)
@@ -104,7 +104,7 @@ function initUI (schedule) {
   })
 
   // generate menu
-  var menu = initMenu(schedule)
+  const menu = initMenu(schedule)
 
   menu.on('update', function () {
     grid.update(1, 0, menu.toString())
@@ -139,7 +139,7 @@ function initUI (schedule) {
   })
 
   input.on('enter', function () {
-    var item = menu.selected()
+    const item = menu.selected()
     talk = scrollable(renderTalk(item.event), {
       maxHeight: grid.cellAt(1, 1).height
     })
@@ -164,12 +164,12 @@ function initUI (schedule) {
 }
 
 function initMenu (schedule) {
-  var items = []
+  let items = []
 
   schedule.day.forEach(function (day, index) {
     items.push({ text: 'Day ' + (index + 1), separator: true })
 
-    var events = []
+    const events = []
 
     day.room.forEach(function (room, roomIndex) {
       if (!room.event) return
@@ -187,12 +187,12 @@ function initMenu (schedule) {
     }))
   })
 
-  var maxWidth = items.reduce(function (max, item) {
+  const maxWidth = items.reduce(function (max, item) {
     return item.text.length > max ? item.text.length : max
   }, 0)
-  var height = grid.cellAt(1, 0).height
+  const height = grid.cellAt(1, 0).height
 
-  var menu = new Menu({
+  const menu = new Menu({
     items: items,
     render: function (item, selected) {
       return selected ? chalk.inverse(pad(item.text, maxWidth)) : item.text
@@ -215,14 +215,14 @@ function updateTopBar () {
 }
 
 function renderTalk (talk) {
-  var cell = grid.cellAt(1, 1)
-  var width = cell.width - cell.padding[1] - cell.padding[3]
+  const cell = grid.cellAt(1, 1)
+  const width = cell.width - cell.padding[1] - cell.padding[3]
 
-  var speakers = talk.persons[0].person.map(function (person) {
+  const speakers = talk.persons[0].person.map(function (person) {
     return person._
   }).join(', ')
 
-  var body = trim(`
+  let body = trim(`
     Room:     ${talk.room[0]}
     Start:    ${talk.start[0]}
     Duration: ${talk.duration[0]}
