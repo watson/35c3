@@ -6,6 +6,8 @@ Chaos Communication Congress 2018 Schedule on the Command Line
 [![Build status](https://travis-ci.org/watson/35c3.svg?branch=master)](https://travis-ci.org/watson/35c3)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+![35c3-10fps](https://user-images.githubusercontent.com/10602/50450120-1b22fe80-092c-11e9-93cd-f9b44ff117db.gif)
+
 ## Install
 
 If you're running Node.js 8, you don't need to install anything as this
