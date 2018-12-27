@@ -77,8 +77,13 @@ function load (cb) {
       // https://github.com/Leonidas-from-XIV/node-xml2js/issues/408
       try {
         xml2js.parseString(xml, function (err, result) {
-          if (err) return cb(err)
-          cb(null, result.schedule)
+          // Unfortunately the callback is called syncrounously, which means
+          // that any exception that's thrown inside the callback mistakenly
+          // will be catched by the catch block below. Hence the nextTick:
+          process.nextTick(function () {
+            if (err) return cb(err)
+            cb(null, result.schedule)
+          })
         })
       } catch (e) {
         console.error('Could not parse conference schedule - malformed XML!')
