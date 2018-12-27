@@ -6,7 +6,7 @@ Chaos Communication Congress 2018 Schedule on the Command Line
 [![Build status](https://travis-ci.org/watson/35c3.svg?branch=master)](https://travis-ci.org/watson/35c3)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-![35c3-10fps](https://user-images.githubusercontent.com/10602/50450120-1b22fe80-092c-11e9-93cd-f9b44ff117db.gif)
+![35c3-10fps](https://user-images.githubusercontent.com/10602/50473894-1d826880-09bf-11e9-9c59-d3028129d9ec.gif)
 
 ## Install
 
