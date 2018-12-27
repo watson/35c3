@@ -186,6 +186,17 @@ function initUI (schedule) {
 }
 
 function initMenu (schedule) {
+  const tracks = new Map()
+  const colors = [
+    chalk.black.bgRed,
+    chalk.black.bgGreen,
+    chalk.black.bgYellow,
+    chalk.black.bgBlue,
+    chalk.black.bgMagenta,
+    chalk.black.bgCyan,
+    chalk.black.bgWhite,
+    chalk.bgBlack
+  ]
   let items = []
 
   schedule.day.forEach(function (day, index) {
@@ -196,8 +207,14 @@ function initMenu (schedule) {
     day.room.forEach(function (room, roomIndex) {
       if (!room.event) return
       room.event.forEach(function (event, index) {
+        const track = event.track[0]
+        if (!tracks.has(track)) {
+          tracks.set(track, colors.pop())
+        }
+        const color = tracks.get(track)
+
         events.push({
-          text: `${event.start}: ${event.title[0]} (${event.room}, ${event.language[0].toUpperCase()})`,
+          text: `${color(event.start)}: ${event.title[0]} (${event.room}, ${event.language[0].toUpperCase()})`,
           marked: saved.has(event.$.id),
           event: event,
           date: (new Date(event.date[0])).getTime()
