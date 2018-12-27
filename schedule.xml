@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Emergency Room</version>
+<version>Firefly</version>
 <conference>
 <acronym>35c3</acronym>
 <title>35th Chaos Communication Congress</title>
@@ -173,6 +173,38 @@ After a short introduction, I begin the presentation by taking a deep dive into 
 <person id='8179'>Florian Euchner (Jeija)</person>
 </persons>
 <links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='527b56af-8d56-4edb-9027-9ca60767c742' id='9386'>
+<date>2018-12-27T17:10:00+01:00</date>
+<start>17:10</start>
+<duration>00:40</duration>
+<room>Adams</room>
+<slug>35c3-9386-introduction_to_deep_learning</slug>
+<url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9386.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Introduction to Deep Learning</title>
+<subtitle></subtitle>
+<track>Science</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>This talk will teach you the fundamentals of machine learning and give you a sneak peek into the internals of the mystical black box. You&#39;ll see how crazy powerful neural networks can be and understand why they sometimes fail horribly.</abstract>
+<description>Computers that are able to learn on their own. It might have sounded like science-fiction just a decade ago, but we&#39;re getting closer and closer with recent advancements in Deep Learning. Or are we?
+
+In this talk, I&#39;ll explain the fundamentals of machine-learning in an understandable and entertaining way. I&#39;ll also introduce the basic concepts of deep learning. With the current hype of deep learning and giant tech companies spending billions on research, understanding how those methods works, knowing the challenges and limitations is key to seeing the facts behind the often exaggerated headlines.
+
+One of the most common applications of deep learning is the interpretation of images, a field that has been transformed significantly in recent years. Applying neural networks to image data helps visualising and understanding many of the faults as well as advantages of machine learning in general. As a research scientist in the field of automated analysis of bio-medical image data, I can give you some insights into these as well as some real-world applications.</description>
+<logo>/system/events/logos/000/009/386/large/i2DL.jpg?1544387802</logo>
+<persons>
+<person id='8117'>teubi</person>
+</persons>
+<links>
+<link href='https://www.nussschale-podcast.de'>Nussschale Podcast</link>
 </links>
 <attachments>
 </attachments>
@@ -1135,38 +1167,6 @@ The discussion will include:
 <attachment href='/attachments/original/missing.png'>file</attachment>
 </attachments>
 </event>
-<event guid='527b56af-8d56-4edb-9027-9ca60767c742' id='9386'>
-<date>2018-12-27T12:30:00+01:00</date>
-<start>12:30</start>
-<duration>00:40</duration>
-<room>Dijkstra</room>
-<slug>35c3-9386-introduction_to_deep_learning</slug>
-<url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9386.html</url>
-<recording>
-<license></license>
-<optout>false</optout>
-</recording>
-<title>Introduction to Deep Learning</title>
-<subtitle></subtitle>
-<track>Science</track>
-<type>lecture</type>
-<language>en</language>
-<abstract>This talk will teach you the fundamentals of machine learning and give you a sneak peek into the internals of the mystical black box. You&#39;ll see how crazy powerful neural networks can be and understand why they sometimes fail horribly.</abstract>
-<description>Computers that are able to learn on their own. It might have sounded like science-fiction just a decade ago, but we&#39;re getting closer and closer with recent advancements in Deep Learning. Or are we?
-
-In this talk, I&#39;ll explain the fundamentals of machine-learning in an understandable and entertaining way. I&#39;ll also introduce the basic concepts of deep learning. With the current hype of deep learning and giant tech companies spending billions on research, understanding how those methods works, knowing the challenges and limitations is key to seeing the facts behind the often exaggerated headlines.
-
-One of the most common applications of deep learning is the interpretation of images, a field that has been transformed significantly in recent years. Applying neural networks to image data helps visualising and understanding many of the faults as well as advantages of machine learning in general. As a research scientist in the field of automated analysis of bio-medical image data, I can give you some insights into these as well as some real-world applications.</description>
-<logo>/system/events/logos/000/009/386/large/i2DL.jpg?1544387802</logo>
-<persons>
-<person id='8117'>teubi</person>
-</persons>
-<links>
-<link href='https://www.nussschale-podcast.de'>Nussschale Podcast</link>
-</links>
-<attachments>
-</attachments>
-</event>
 <event guid='c8b34953-b60f-4ed0-8784-dc20153e0725' id='9720'>
 <date>2018-12-27T13:30:00+01:00</date>
 <start>13:30</start>
@@ -1291,14 +1291,24 @@ Warum ist die Rolle der Menschenrechtsbeobachter, selbst in Europa, so wichtig?<
 <type>lecture</type>
 <language>de</language>
 <abstract>Digitale Formen von Gewalt gegen Frauen sind keine eigenständigen Phänomene, sondern in der Regel Weiterführungen oder Ergänzungen von anderen Gewaltformen. Stalking, Kontrolle, Bedrohung, Erpressung, Beleidigung, Überwachung sind altbekannte Aspekte häuslicher Gewalt. Für alle diese Phänomene gibt es digitale Entsprechungen, allerdings ist wenig darüber bekannt, wie oft sie ausgeübt werden, wann und von wem. Das macht es für die Betroffenen schwer, sich zu wehren, auch weil Politik und Justiz hier genauso verständnislos reagieren wie bei anderen digitalen Entwicklungen. </abstract>
-<description></description>
-<logo></logo>
+<description>Warum ist Kinderpornographie ein Kernthema der deutschen und europäischen Innenpolitik, aber kaum jemand redet über Revenge-Porn?&lt;/br&gt;
+&lt;/br&gt;
+In diesem Talk geht es um die verschiedenen Formen digitaler Gewalt und darum, wie oft sie vorkommen und wer davon betroffen ist.&lt;/br&gt;
+&lt;/br&gt;
+Es gibt kaum aussagekräftige Zahlen und wenig Hilfe für Betroffene. Warum wissen wir sowenig und was gibt es für Möglichkeiten, sich gegen die verschiedenen Formen digitaler Gewalt zu wehren? &lt;/br&gt;
+
+
+
+</description>
+<logo>/system/events/logos/000/010/023/large/Fliegenpilz_fly-agaric-2817723_640.jpg?1545772806</logo>
 <persons>
 <person id='1864'>Anne Roth</person>
 </persons>
 <links>
+<link href='https://www.aktiv-gegen-digitale-gewalt.de/de/'>bff Projekt &#39;Aktiv gegen digitale Gewalt&#39;</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/628/original/KleineAnfrage_Digitale_Gewalt_19-6174.pdf?1545758999'>Kleine Anfrage Die Linke &quot;Digitale Gewalt gegen Frauen&quot;</attachment>
 </attachments>
 </event>
 <event guid='8a3e490c-30a5-46a6-ab4f-45ef3b23b1a1' id='9383'>
@@ -1433,7 +1443,9 @@ ARM Hardware - ARM Trusted Firmware
 Intel Minnowboard - TianoCore, coreboot
 A lot embedded hardware - u-boot
 
-In diesem Vortrag werden wir uns den Weg der Open Source firmware  Entwicklung von der Vergangeheit bis in die Gegenwart anschauen. Dabei werden wir ein Schwerpunkt auf neue Technologien in der Firmware Entwicklung und eine Einführung in bestehende Konzepte legen. Teil des Vortrags werden auch Sicherheitstechnologien und Konzepte der Firmware sein. Zum Schluss werden wir einen Ausblick auf die Zukunft und damit verbundenen Ideen uns anschauen.</abstract>
+In diesem Vortrag werden wir uns den Weg der Open Source firmware  Entwicklung von der Vergangeheit bis in die Gegenwart anschauen. Dabei werden wir ein Schwerpunkt auf neue Technologien in der Firmware Entwicklung und eine Einführung in bestehende Konzepte legen. Teil des Vortrags werden auch Sicherheitstechnologien und Konzepte der Firmware sein. Zum Schluss werden wir einen Ausblick auf die Zukunft und damit verbundenen Ideen uns anschauen.
+
+Dies ist ein Einsteiger Vortrag der dazu dienen soll mehr Menschen von der Open Source Firmware Entwicklung zu begeistern.</abstract>
 <description></description>
 <logo>/system/events/logos/000/009/778/large/oscar_eckig.png?1545254350</logo>
 <persons>
@@ -2299,9 +2311,7 @@ We will finish by demonstrating some of the visualization tools are have deploye
 
 Dieses Jahr erwischte es unter anderem die Zwiebelfreunde, das OpenLab in Augsburg, den C3DO und evtl. andere. Daher solltet ihr euch gedanklich auf eine Durchsuchung vorbereiten und Schritte ergreifen.
 
-Im Vortrag erzählen euch Jens und Kristin, welche Maßnahmen weit vor einer Durchsuchung sinnvoll sind. Weiterhin geben sie euch Empfehlungen, auf was ihr bei einer laufenden Durchsuchung achten solltet und wie es nach einer Hausdurchsuchung weitergeht.
-
-Der Vortrag basiert unter anderem auch auf Jens’ Erfahrungen bei einer Hausdurchsuchung.</description>
+Im Vortrag erzählen euch Jens und Kristin, welche Maßnahmen weit vor einer Durchsuchung sinnvoll sind. Weiterhin geben sie euch Empfehlungen, auf was ihr bei einer laufenden Durchsuchung achten solltet und wie es nach einer Hausdurchsuchung weitergeht.</description>
 <logo>/system/events/logos/000/010/018/large/atomicBomb.jpg?1545003847</logo>
 <persons>
 <person id='2402'>qbi</person>
@@ -2698,13 +2708,13 @@ This is a brief introduction into the paradigm shifting realm of sex- and gender
 <start>17:30</start>
 <duration>01:00</duration>
 <room>Clarke</room>
-<slug>35c3-9998-the_good_the_strange_and_the_ugly_in_art_and_science_technology_in_2018</slug>
+<slug>35c3-9998-the_good_the_strange_and_the_ugly_in_2018_art_tech</slug>
 <url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9998.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>The good, the strange and the ugly in art and science/technology in 2018</title>
+<title>The good, the strange and the ugly in 2018 art &amp;tech </title>
 <subtitle></subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
@@ -2715,7 +2725,7 @@ This is a brief introduction into the paradigm shifting realm of sex- and gender
 
 The talk will look at the good, the strange and the exciting in art and science/technology over this past year. With a short incursion into the ugly because even artists have the right to be awful.
 
-Some of the topics explored might include: the environmental and human cost of AI; hormones hacking, &#39;racism&#39; behind innocent looking devices, esoteric beliefs, etc.</description>
+Some of the topics explored might include the environmental and human cost of AI; hormones hacking, &#39;racism&#39; behind innocent looking devices and other prospects of a post-human world.</description>
 <logo></logo>
 <persons>
 <person id='8727'>Régine Debatty</person>
@@ -4383,13 +4393,13 @@ This session could be helpful both for people interested in getting into the sec
 <track>Science</track>
 <type>lecture</type>
 <language>de</language>
-<abstract>Am 17. September 2018 emittierte der Blazar TXS0506+056 eine große Menge schwach wechselwirkender Neutrinos. Von dem durch ein supermassives schwarzes Loch im Zentrum seiner Galaxie angetriebenen kosmischen Teilchenbeschleuniger fand eines dieser Teilchen seinen Weg zur Erde und interagierte mit Wassermolekülen im antarktischen Eis. Durch einen glücklichen Zufall konnte das IceCube Neutrino Observatory, ein Kubikkilometer großer Detektor aus instrumentiertem Eis, eine Lichtspur aufzeichnen, die direkt zur Quelle zurück zeigte. Damit konnte erstmals ein bekanntes astrophysikalisches Objekt mit dem Ursprung eines kosmischen Neutrinos assoziert werden und das Ereignis IceCube-170922A schrieb Geschichte. Ein näherer Blick auf die während 2014-2015 gesammelten Daten zeigte, dass die Neutrino-Emission von TXS0506+056 phasenweise erhöht ist. Dies unterstützt die These, dass das Ereignis von 2017 tatsächlich dem Blazar zugeordnet werden kann und die Entdeckung wurde zu einem großer Erfolg für die Multi-Messenger Astrophysik. 
-
-On September 17th 2017 the blazar TXS0506+056, a gigantic particle accelerator driven by the super-massive black hole at the center of its host galaxy, emitted a large number of weakly interacting elementary particles, known as neutrinos. One of these particles found its way to Earth and interacted with water molecules in the South-Antarctic Ice Sheet. Fortunately, the IceCube Observatory, a cubic kilometer of instrumented ice recorded a track of light that pointed directly back to its origin, unlike many other neutrinos captured in the past. This event, called IceCube-170922A writes history, since for the first time a concrete astrophysical object can be associated to the origin of this neutrino and thus the presence of strongly accelerated, interacting matter. A second look at the data recorded in 2014-2015 confirmed that the blazar has indeed periods of high-neutrino emission, strengthening the confidence in the 2017 event to be a real discovery and great success for Multi-Messenger Astrophysics.</abstract>
+<abstract>Vor 5.7 Milliarden Jahren emittierte der Blazar TXS0506+056 eine große Menge schwach wechselwirkender Neutrinos. Von dem durch ein supermassives schwarzes Loch im Zentrum seiner Galaxie angetriebenen kosmischen Teilchenbeschleuniger fand eines dieser Teilchen seinen Weg zur Erde und interagierte mit Wassermolekülen im antarktischen Eis. Durch einen glücklichen Zufall konnte das IceCube Neutrino Observatory, ein Kubikkilometer großer Detektor aus instrumentiertem Eis, am 22. September 2017 eine Lichtspur aufzeichnen, die direkt zur Quelle zurück zeigte. Damit konnte erstmals ein bekanntes astrophysikalisches Objekt mit dem Ursprung eines kosmischen Neutrinos assoziert werden und das Ereignis IceCube-170922A schrieb Geschichte. Ein näherer Blick auf die während 2014-2015 gesammelten Daten zeigte, dass die Neutrino-Emission von TXS0506+056 phasenweise erhöht ist. Dies unterstützt die These, dass das Ereignis von 2017 tatsächlich dem Blazar zugeordnet werden kann und die Entdeckung wurde zu einem großer Erfolg für die Multi-Messenger Astrophysik. </abstract>
 <description>Bereits 1912 entdeckte Viktor Hess die als kosmische Strahlen bekannten hochenergetischen Teilchen, die im Sekundentakt aus dem Weltall auf die Erdatmosphäre treffen. Einige von ihnen stammen aus unserer Sonne, andere von Quellen in unserer eigenen Galaxie – bei den höchsten Energien liegen die Ursprünge allerdings vermutlich in weit entfernten Galaxien. Unglücklicherweise handelt es sich größteils um geladene Ionen, die auf ihrem Weg durch das Universum durch Magnetfelder abgelenkt werden und nicht zu ihren Quellen zurückverfolgt werden können. Deswegen konnte in den mehr als 100 Jahren seit ihrer Entdeckung keine eindeutige Quelle extragalaktischer kosmischer Strahlen identifiziert werden.  
 Trotz allem gibt es dort draußen Objekte, die winzige Teilchen mit den unvorstellbar geringen Massen von 10^-24g auf die Energie beschleunigen, mit der Rafael Nadal seine Tennisbälle aufschlägt. In irgendeiner Form müssen diese Objekte strahlen und neben kosmischen Strahlen auch andere Teilchen emittieren. Hier setzt die Idee von Multi-Messenger Astroteilchenphysik an: Bei der Untersuchung der energiereichsten Objekte unseres Universums werden zugleich Licht, Neutrinos und Gravitationswellen betrachtet, allesamt ungeladene Boten, die Informationen von den Quellen direkt zu unseren Detektoren tragen. Während 2017 Gravtitationswellen eines Gammastrahlenblitzes identifiziert werden konnten, war der diesjährige Durchbruch in der Multi-Messenger Astroteilchenphysik die Assoziation eines von IceCube detektierten Neutrinos mit einem bekannten Blazar in einer weit entfernten Galaxie. 
 
 In diesem Vortrag erklären wir, was Menschen zum Bau komplexer Detektoren an den exotischsten Plätzen der Welt motiviert, um hochenergetische Teilchen aus dem Weltall zu jagen. Wir sprechen über die bahnbrechende Entdeckung diesen Jahres und beleuchten, wie der Durchbruch durch twitter-ähnliche Echtzeit-Monitoring-Systeme überhaupt erst möglich wurde.  
+
+5.7 billion years ago, the blazar TXS0506+056, a gigantic particle accelerator driven by the super-massive black hole at the center of its host galaxy, emitted a large number of weakly interacting elementary particles, known as neutrinos. One of these particles found its way to Earth and interacted with water molecules in the South-Antarctic Ice Sheet. Fortunately, the IceCube Observatory, a cubic kilometer of instrumented ice recorded a track of light that pointed directly back to its origin, unlike many other neutrinos captured in the past. This event, called IceCube-170922A writes history, since for the first time a concrete astrophysical object can be associated to the origin of this neutrino and thus the presence of strongly accelerated, interacting matter. A second look at the data recorded in 2014-2015 confirmed that the blazar has indeed periods of high-neutrino emission, strengthening the confidence in the 2017 event to be a real discovery and great success for Multi-Messenger Astrophysics.
 
 As discovered by Victor Hess already in 1912, there are particles impinging the Earth’s atmosphere every couple of seconds called Cosmic Rays. Some of them are accelerated in the sun, others by sources in our galaxy but at the highest energies, these particles are very likely coming from distant galaxies. Unfortunately, most of them are charged ions that are deflected by magnetic fields on their way through the universe and they do not point back to the point where they have been accelerated. Therefore, even 100 years after the discovery of cosmic rays a definite and obvious source has not been discovered. However, there is something out there that can accelerate a tiny particle with a mass as little as 10-24g (this is a number with !23! decimal zeros) to the energy equivalent to a tennis ball served by Rafael Nadal, then it must somehow shine and emit other radiation among the Cosmic Rays. This is the basic idea of multi-messenger astrophysics that aims to study the most violent objects in the universe by looking simultaneously at the emitted light, the neutrinos and the gravitational waves, which are all uncharged messengers carrying the information from the sources directly to our detectors. While n 2017, gravitational waves from a Gamma-Ray Burst were identified, this years major breakthrough in the field of multi-messenger astrophysics was the association  of a high energy neutrino detected by IceCube with a known blazar in a far away galaxy.  
 
@@ -4826,6 +4836,43 @@ Protection of digital data has become a necessity, certainly in the light of new
 <person id='8193'>Ben Parsons from Matrix</person>
 </persons>
 <links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='9f27a4c2-f957-4bad-81a8-988a37429d5c' id='9804'>
+<date>2018-12-29T17:10:00+01:00</date>
+<start>17:10</start>
+<duration>00:40</duration>
+<room>Dijkstra</room>
+<slug>35c3-9804-die_hauser_denen_die_darin_wohnen</slug>
+<url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9804.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Die Häuser denen, die darin wohnen!</title>
+<subtitle>Langfristig bezahlbares, gemeinsames „Mieteigentum“ schaffen – 	auch ohne Banken</subtitle>
+<track>Ethics, Society &amp; Politics</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wir wenden uns gegen Gentrifizierung, Luxussanierung und Spekulation mit Häusern. Das Mietshäuser Syndikat ist ein bundesweiter Verbund linker, selbstverwalteter Hausprojekte mit dem Ziel der Initiierung und dauerhaften Erhaltung von gemeinschaftlich genutztem und bezahlbarem Wohn- und Gewerberaum. Der Grundgedanke: Gemeineigentum wird geschaffen und dauerhaft dem Markt entzogen. Die Mieter*innen sind zugleich Besitzer*innen ohne private Gewinnerzielungsabsichten, sie transferieren Knowhow und oft auch Direktkredite an andere Hausprojekte.</abstract>
+<description>In einer Zeit, in der Mieten teilweise die Hälfte des Einkommens verschlingen, wollen wir mit unserer Idee des Mietshäuser Syndikats (MHS) dagegenhalten. Jedes Haus eines MHS-Hausprojektes wird dabei Gemeineigentum, die aktuellen Mieter*innen sind damit auch ihre eigenen Vermieter*innen. Das MHS beruht auf drei Grundpfeilern: Die Gruppen müssen sich selbst organisieren, sie müssen in einen Solidarfonds zur Initialisierung weiterer Hausprojekte einzahlen, und sie dürfen &quot;ihr&quot; Haus nie mehr verkaufen. Die einzelnen Hausprojekte agieren wirtschaftlich eigenständig, der Dachverband (das MHS) hält jedoch Besitzanteile an allen Hausprojekten und hat damit ein Vetorecht bei Verkaufsabsichten. Solvente Hausprojekte fungieren zudem intern oft als Direktkreditgeber mit dem Ziel, die Abhängigkeit von kommerziellen Bankkrediten erheblich zu reduzieren bzw. sie langfristig komplett obsolet zu machen. Die Mieten werden nur soweit erhöht, dass die laufenden Kosten gedeckt werden können. So entstehen bezahlbare Wohnräume und Räume für soziale und politische Initiativen – auch in Städten, in denen Mieten mittlerweile unerschwinglich geworden sind.
+
+Derzeit gibt es 133 MHS-Hausprojekte, in Frankreich, Österreich und den Niederlanden entstehen nach modifiziertem Modell eigene Syndikate und es gibt weltweit Beratungsanfragen. Die Hausprojekte sind in ihrer Vielfalt sehr unterschiedlich, von reinen Wohn- bis hin zu reinen Gewerbehäusern ist alles vorhanden. Oft gibt es Räume für Veranstaltungen oder Treffen von sozialen Gruppen und politischen Initiativen. Das MHS beschränkt sich auf die Organisation von Hausprojekten, denkbar wären auch andere Syndikatsideen wie z.B. Ackerland- und Wagenburgsyndikate oder lokale Energieerzeugersyndikate.
+
+Die anschließende Diskussion beleuchtet Synergien von MHS und CCC, teils am Beispiel des CCC Freiburg, der seit einem Jahr seine Clubräume in einem solchen MHS-Hausprojekt hat und so zum MHS-Mitglied wurde. 
+Das MHS benötigt wachstumsbedingt Unterstützung bei der Einrichtung von Tools für Kommunikation, Organisation und Entscheidungsfindung, aber auch bei neuen Partizipationsformen an (teils länder- und sprachübergreifenden) Projekten oder Veranstaltungen, bei denen nur noch ein Teil der Teilnehmer*innen vor Ort ist und die übrigen digital mitwirken. Die Hausprojekte profitieren von freier Kommunikation in digitalen Datennetzen, wie es beispielsweise reudnetz oder freifunk anbieten. Die regionalen CCC-Verbände wiederum finden bezahlbare Clubräume in den Hausprojekten. Eine Zusammenarbeit auf politischer Ebene könnte genutzt werden, um gemeinsamen Kampagnen mehr Durchschlagskraft zu geben. Ganz konkret werden Projekte gegen Rechts immer notwendiger.</description>
+<logo>/system/events/logos/000/009/804/large/s_einkaufswagen_tr.png?1542150721</logo>
+<persons>
+<person id='8342'>Elke Manz</person>
+<person id='6469'>fuzzle/fr</person>
+<person id='8737'>Schmidt</person>
+<person id='8750'>Lina</person>
+</persons>
+<links>
+<link href='http://das-ist-unser-haus.de/'>Das ist unser Haus (Film cc)</link>
+<link href='https://www.syndikat.org/'>Mietshäuser Syndikat</link>
 </links>
 <attachments>
 </attachments>
@@ -5609,7 +5656,7 @@ For registration and schedule info, please check out https://c3lt.de/35c3</descr
 <language>en</language>
 <abstract>There is four times more dark matter and over fifteen times more dark energy than regular matter in the universe. And we have absolutely no idea what these invisible dark substances might be. This talk will show how we know that dark energy and dark matter exist, although we cannot see them directly. This kind of reverse enigneering of the universe already revealed some interesting features of the dark parts. However, the true nature of dark matter and dark energy are literally in the dark.</abstract>
 <description>When it comes to dark matter, cosmology is facing a crisis. Many theories that can be tested nowadays where falsified and dark matter particle candidates still haven&#39;t been found in most of the predicted energy ranges. Whatever dark matter and dark energy will turn out to be, it will be stunning. So stay tuned and explore the dark. </description>
-<logo></logo>
+<logo>/system/events/logos/000/009/925/large/IMG_20181225_232912.jpg?1545778008</logo>
 <persons>
 <person id='8670'>Sara Konrad</person>
 </persons>
@@ -5639,6 +5686,7 @@ For registration and schedule info, please check out https://c3lt.de/35c3</descr
 <logo></logo>
 <persons>
 <person id='2042'>Leon</person>
+<person id='5126'>Kévin Redon</person>
 </persons>
 <links>
 </links>
@@ -5726,6 +5774,7 @@ Parametrische Orgelpfeifen-Files (FreeCAD und OpenSCAD):
 <logo>/system/events/logos/000/009/768/large/0865eb00acd7dc00c592fd205d3f93de_preview_featured.jpg?1545500740</logo>
 <persons>
 <person id='8577'>Benjamin Wand</person>
+<person id='8818'>Jannik Beyerstedt</person>
 </persons>
 <links>
 </links>
