@@ -10,8 +10,8 @@ Chaos Communication Congress 2018 Schedule on the Command Line
 
 ## Install
 
-If you're running Node.js 8, you don't need to install anything as this
-tool can simply be run using:
+If you're running Node.js 8 or higher, you don't need to install
+anything as this tool can simply be run using:
 
 ```
 npx 35c3
