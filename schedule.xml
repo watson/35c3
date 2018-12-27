@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Firefly</version>
+<version>Golden Girls</version>
 <conference>
 <acronym>35c3</acronym>
 <title>35th Chaos Communication Congress</title>
@@ -269,13 +269,13 @@ One of the most common applications of deep learning is the interpretation of im
 <start>20:50</start>
 <duration>01:00</duration>
 <room>Adams</room>
-<slug>35c3-10016-g10_bnd-gesetz_und_der_effektive_schutz_von_grundrechten</slug>
+<slug>35c3-10016-g10_bnd-gesetz_und_der_effektive_schutz_vor_grundrechten</slug>
 <url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10016.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>G10, BND-Gesetz und der effektive Schutz von Grundrechten</title>
+<title>G10, BND-Gesetz und der effektive Schutz vor Grundrechten</title>
 <subtitle>Die strategische Fernmeldeüberwachung des BND vor dem Bundesverfassungsgericht</subtitle>
 <track>Ethics, Society &amp; Politics</track>
 <type>lecture</type>
@@ -418,6 +418,7 @@ The talk will give an overview of the developments that led to TLS 1.3, the majo
 <link href='https://www.golem.de/news/tls-1-3-die-zukunft-der-netzverschluesselung-1612-124724.html'>TLS 1.3: Die Zukunft der Netzverschlüsselung</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/637/original/tls13.pdf?1545904122'>Slides</attachment>
 </attachments>
 </event>
 <event guid='d995955c-319f-4228-b3f4-080868bbfdf8' id='9904'>
@@ -865,6 +866,7 @@ In this talk, we will detail the full infection chain showing how Sednit was abl
 <link href='https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf'>LOJAX: First UEFI rootkit found in the wild, courtesy of the Sednit group (white paper)</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/638/original/35C3-First-Sednit-UEFI-Rootkit-Unveiled.pdf?1545904527'>Slides</attachment>
 </attachments>
 </event>
 <event guid='1601bf3b-ce4a-44c9-993f-7d28fa65168d' id='9809'>
@@ -1526,6 +1528,7 @@ In addition, the talk will cover selected areas of the physics programme of this
 <link href='http://www.hyperk.org'>Hyper-Kamiokande website</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/630/original/35C3_JostMigenda.pdf?1545850403'>Slides (pdf, 30MB)</attachment>
 </attachments>
 </event>
 <event guid='9d8d4506-03b2-483d-aee5-d106f0a3eef5' id='9410'>
@@ -1565,6 +1568,7 @@ Once we get a hang on this, the machinery park in the clean room allows us to sh
 <link href='https://github.com/chipforge/PearlRiver'>PearlRiver test wafer</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/636/original/talk-20181227-35c3.pdf?1545900171'>talk-20181227-35c3.pdf</attachment>
 </attachments>
 </event>
 <event guid='6a5007f4-e7d6-4c63-9a10-26dd48a6eb6c' id='9375'>
@@ -1998,7 +2002,6 @@ There will also be disclosures on continued surveillance and harassment by the H
 <logo></logo>
 <persons>
 <person id='8588'>Robert Tibbo</person>
-<person id='8801'>Steffen Arora</person>
 </persons>
 <links>
 </links>
@@ -2245,6 +2248,7 @@ For registration and schedule info, please check out https://c3lt.de/35c3</descr
 </persons>
 <links>
 <link href='https://c3lt.de/35c3'>Registration and schedule</link>
+<link href='https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks'>Congress Wiki Page</link>
 </links>
 <attachments>
 </attachments>
@@ -2715,7 +2719,7 @@ This is a brief introduction into the paradigm shifting realm of sex- and gender
 <optout>false</optout>
 </recording>
 <title>The good, the strange and the ugly in 2018 art &amp;tech </title>
-<subtitle></subtitle>
+<subtitle>On art, AI, hormones hacking and other prospects of a post-human world</subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
 <language>en</language>
@@ -2725,7 +2729,7 @@ This is a brief introduction into the paradigm shifting realm of sex- and gender
 
 The talk will look at the good, the strange and the exciting in art and science/technology over this past year. With a short incursion into the ugly because even artists have the right to be awful.
 
-Some of the topics explored might include the environmental and human cost of AI; hormones hacking, &#39;racism&#39; behind innocent looking devices and other prospects of a post-human world.</description>
+Some of the topics explored might include the environmental and human cost of AI, hormones hacking, &#39;racism&#39; behind innocent looking devices and other prospects of a post-human world.</description>
 <logo></logo>
 <persons>
 <person id='8727'>Régine Debatty</person>
@@ -3478,7 +3482,7 @@ Wir entwickeln ein völlig freies quelloffenes Hardware- und Software-Design fü
 <person id='6677'>Felix Just</person>
 </persons>
 <links>
-<link href='www.suprememachines.de'>Supreme Machines Website</link>
+<link href='https://suprememachines.de/'>Supreme Machines Website</link>
 </links>
 <attachments>
 <attachment href='/system/event_attachments/attachments/000/003/586/original/hannah_push_recovery.mp4?1539639211'>Kurzes Video vom Roboter</attachment>
@@ -4036,6 +4040,7 @@ For registration and schedule info, please check out https://c3lt.de/35c3</descr
 </persons>
 <links>
 <link href='https://c3lt.de/35c3'>Registration and schedule</link>
+<link href='https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks'>Congress Wiki Page</link>
 </links>
 <attachments>
 </attachments>
@@ -4868,7 +4873,7 @@ Das MHS benötigt wachstumsbedingt Unterstützung bei der Einrichtung von Tools 
 <person id='8342'>Elke Manz</person>
 <person id='6469'>fuzzle/fr</person>
 <person id='8737'>Schmidt</person>
-<person id='8750'>Lina</person>
+<person id='8750'>Lina Hurlin</person>
 </persons>
 <links>
 <link href='http://das-ist-unser-haus.de/'>Das ist unser Haus (Film cc)</link>
@@ -5490,7 +5495,7 @@ Entsprechend werden in Brüssel derzeit Gegenmaßnahmen geplant, die die Wahlen 
 <track>Ethics, Society &amp; Politics</track>
 <type>lecture</type>
 <language>de</language>
-<abstract>Das Jahr 2018 bietete weider zahlreiche Beispiele für einen netzpolitischen Wetterbericht. Die Große Koalition lief sich mit der Bundesregierung warm und am Ende des Jahres droht man den Überblick über zahlreiche Kommissionen und Arbeitsgruppen zur Digitalisierung zu verlieren.
+<abstract>Das Jahr 2018 bietete wieder zahlreiche Beispiele für einen netzpolitischen Wetterbericht. Die Große Koalition lief sich mit der Bundesregierung warm und am Ende des Jahres droht man den Überblick über zahlreiche Kommissionen und Arbeitsgruppen zur Digitalisierung zu verlieren.
 
 Die gute Nachricht ist: Netzpolitik ist angekommen und geht nicht mehr so schnell weg. Die schlechte Nachricht ist: Beispiele für eine bessere Netzpolitik, Wert auf den Schutz und Ausbau von Grund- und Verbraucherrechte legt, gibt es leider eher weniger.
 
@@ -5634,6 +5639,7 @@ For registration and schedule info, please check out https://c3lt.de/35c3</descr
 </persons>
 <links>
 <link href='https://c3lt.de/35c3'>Registration and schedule</link>
+<link href='https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks'>Congress Wiki Page</link>
 </links>
 <attachments>
 </attachments>
@@ -5784,7 +5790,7 @@ Parametrische Orgelpfeifen-Files (FreeCAD und OpenSCAD):
 <event guid='b11ac9c0-8a4d-47ae-a584-f5c01fa2a01c' id='9964'>
 <date>2018-12-30T14:10:00+01:00</date>
 <start>14:10</start>
-<duration>01:00</duration>
+<duration>00:50</duration>
 <room>Clarke</room>
 <slug>35c3-9964-cat_mouse_evading_the_censors_in_2018</slug>
 <url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9964.html</url>
@@ -5808,7 +5814,7 @@ The following key questions will be answered in this session:
 - How do circumvention trends follow censorship events and social/political movements?
 - Where do we see these technical advances leading the next generation of censorship and circumvention technology?
 
-This is a Foundations talk. Though no prior understanding of circumvention technology is required to enjoy this, the presentation will delve into technical details that will prove fruitful for the expert audience as well.</description>
+This is a Foundations talk. No prior understanding of circumvention technology is required to enjoy this, but the presentation will hopefully be enjoyable to all experience levels.</description>
 <logo>/system/events/logos/000/009/964/large/Untitled-11.png?1539703024</logo>
 <persons>
 <person id='8668'>kmc</person>
@@ -5840,10 +5846,10 @@ This is a Foundations talk. Though no prior understanding of circumvention techn
 <abstract>Why do navigation systems have feminine voices? We know Tay, Eliza, Siri not only as female names, but also as chatbots and software, which directly interact with humans. Although computer programs are per se genderless, gender seems not to be cancelled out in human-machine interaction, but why? </abstract>
 <description>This talk aims to examine how we map gender on computers and machines. This includes looking at software in machine-human interaction, as well as digging deeper into a cultural history of imagining and building human-like machines. 
 To look at this, two view points are taken; 
-In the examples of the virtual assistants; what are the technical requirements for speech synthesis and how do these shape which gender we associate with a human sounding voice? What are the expectations and projections users map onto a machine when they interact with it? 
+In the examples of the virtual assistants; What do the responses these devices give in conversation reveal about their design? What are the expectations and projections users map onto a machine when they interact with it? 
 This connects to the cultural imagining of machines as subjects, which has been pondered in literature and film before and parallel to technical research. From 18th century clockwork powered figures, that wrote and played music, to 19th century literature, in which young men fall in love with piano playing automata to A.I. characters in movie series and cinema.
 This talk tries to explore the relations between design and perception of machines and the dynamics in between.</description>
-<logo></logo>
+<logo>/system/events/logos/000/009/905/large/talk_logo.png?1545853700</logo>
 <persons>
 <person id='8405'>Polaris</person>
 </persons>
