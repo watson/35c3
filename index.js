@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 'use strict'
 
-process.title = require('./package').name
+const pkgName = require('./package').name
+
+process.title = pkgName
 
 const os = require('os')
 const fs = require('fs')
@@ -18,7 +20,11 @@ const Menu = require('menu-string')
 const wrap = require('wrap-ansi')
 const pad = require('fixed-width-string')
 const chalk = require('chalk')
+const Configstore = require('configstore')
 const argv = require('minimist')(process.argv.slice(2))
+
+const conf = new Configstore(pkgName)
+const saved = new Set(conf.get('saved') || [])
 
 const URL = 'https://fahrplan.events.ccc.de/congress/2018/Fahrplan/schedule.xml'
 const CACHE = path.join(os.homedir(), '.35c3', 'schedule.xml')
@@ -122,6 +128,17 @@ function initUI (schedule) {
   })
   input.on('up', goUp)
   input.on('down', goDown)
+  input.on('space', function () {
+    menu.toggleMark()
+    const item = menu.selected()
+    const id = item.event.$.id
+    if (!saved.has(id)) {
+      saved.add(id)
+    } else {
+      saved.delete(id)
+    }
+    conf.set('saved', Array.from(saved))
+  })
 
   input.on('left', function () {
     activeCol = 0
@@ -175,7 +192,8 @@ function initMenu (schedule) {
       if (!room.event) return
       room.event.forEach(function (event, index) {
         events.push({
-          text: `  ${event.start}: ${event.title[0]} (${event.room}, ${event.language[0].toUpperCase()})`,
+          text: `${event.start}: ${event.title[0]} (${event.room}, ${event.language[0].toUpperCase()})`,
+          marked: saved.has(event.$.id),
           event: event,
           date: (new Date(event.date[0])).getTime()
         })
@@ -195,7 +213,10 @@ function initMenu (schedule) {
   const menu = new Menu({
     items: items,
     render: function (item, selected) {
-      return selected ? chalk.inverse(pad(item.text, maxWidth)) : item.text
+      const text = item.separator
+        ? item.text
+        : `${item.marked ? '\u2714' : ' '} ${item.text}`
+      return selected ? chalk.inverse(pad(text, maxWidth)) : text
     },
     height: height
   })
@@ -210,7 +231,7 @@ function renderTopBar (text, active) {
 }
 
 function updateTopBar () {
-  grid.update(0, 0, renderTopBar(` 35c3 schedule - ${chalk.bold('enter:')} select, ${chalk.bold('tab:')} switch column`, activeCol === 0))
+  grid.update(0, 0, renderTopBar(` 35c3 schedule - ${chalk.bold('enter:')} details, ${chalk.bold('space:')} favorite, ${chalk.bold('tab:')} switch column`, activeCol === 0))
   grid.update(0, 1, renderTopBar(talk ? `Scroll: ${Math.round(talk.pct() * 100)}%` : '', activeCol === 1))
 }
 
