@@ -43,10 +43,12 @@ function help () {
   console.log('  --help, -h     Show this help')
   console.log('  --version, -v  Show version')
   console.log('  --update, -u   Update schedule with new changes')
+  process.exit()
 }
 
 function version () {
   console.log(require('./package').version)
+  process.exit()
 }
 
 function update () {
